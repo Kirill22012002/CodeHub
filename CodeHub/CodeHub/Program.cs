@@ -12,6 +12,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IEmailService, EmailService>();
+builder.Services.AddTransient<IWeatherService, WeatherService>();
+
 AppSettings.ConfigureSetting(builder.Configuration);
 
 var app = builder.Build();

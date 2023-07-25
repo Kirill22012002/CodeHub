@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IbnsisbSLUVhCegiHrgbK9D3Xnu1dmI/7uIJC4X7/XbVJA42hp08Kktweq/MLAPcjjfuQJciHZDUSlYAXikX+g==",
+  "dgSpecHash": "nttsMyH2ow6cR+YGuq2HZlYhcqo+IrQOnHqRw59WumWHuXRllPYXLxP3amvS6FOWRo43XMq/i+KlknvTxkku3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kirill\\Desktop\\Applications\\CodeHub\\CodeHub\\CodeHub.csproj",
+  "projectFilePath": "C:\\Users\\Kirill\\Source\\Repos\\Kirill22012002\\CodeHub\\CodeHub\\CodeHub\\CodeHub.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kirill\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\Kirill\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

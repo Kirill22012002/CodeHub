@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kirill\\Desktop\\Applications\\CodeHub\\CodeHub\\CodeHub.csproj",
+      "projectUniqueName": "C:\\Users\\Kirill\\Source\\Repos\\Kirill22012002\\CodeHub\\CodeHub\\CodeHub\\CodeHub.csproj",
       "projectName": "CodeHub",
-      "projectPath": "C:\\Users\\Kirill\\Desktop\\Applications\\CodeHub\\CodeHub\\CodeHub.csproj",
+      "projectPath": "C:\\Users\\Kirill\\Source\\Repos\\Kirill22012002\\CodeHub\\CodeHub\\CodeHub\\CodeHub.csproj",
       "packagesPath": "C:\\Users\\Kirill\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kirill\\Desktop\\Applications\\CodeHub\\CodeHub\\obj\\",
+      "outputPath": "C:\\Users\\Kirill\\Source\\Repos\\Kirill22012002\\CodeHub\\CodeHub\\CodeHub\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kirill\\AppData\\Roaming\\NuGet\\NuGet.Config",
