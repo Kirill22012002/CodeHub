@@ -4,7 +4,6 @@ namespace CodeHub.Services.Interfaces
 {
     public interface IWeatherService
     {
-        public WeatherDataViewModel GetWeather(decimal latitude, decimal longitude);
-
+        public Task<WeatherDataViewModel> GetWeather(decimal latitude, decimal longitude);
     }
 }
