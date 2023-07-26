@@ -4,8 +4,8 @@ using System.Net;
 
 namespace CodeHub.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("[controller]/[action]")]
     public class WeatherController : ControllerBase
     {
         private readonly IWeatherService _weatherService;
@@ -16,10 +16,9 @@ namespace CodeHub.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetWeather()
+        public async Task<IActionResult> GetWeather()
         {
-            var answer = _weatherService.GetWeather(54.869746M, 28.738984M); // Lepel 
-
+            var answer = await _weatherService.GetWeather(54.869746M, 28.738984M); // Lepel 
             return Ok(answer);
         }
     }

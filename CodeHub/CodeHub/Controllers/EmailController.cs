@@ -6,7 +6,6 @@ namespace CodeHub.Controllers
 {
     [ApiController]
     [Route("[controller]/[action]")]
-
     public class EmailController : Controller
     {
         private readonly IEmailService _emailService;
