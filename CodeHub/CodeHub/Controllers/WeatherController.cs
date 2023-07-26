@@ -18,12 +18,9 @@ namespace CodeHub.Controllers
         [HttpGet]
         public IActionResult GetWeather()
         {
+            var answer = _weatherService.GetWeather(54.869746M, 28.738984M); // Lepel 
 
-            _weatherService.GetWeather(54.869746M, 28.738984M); // Lepel 
-            
-
-            return Ok();
+            return Ok(answer);
         }
-
     }
 }

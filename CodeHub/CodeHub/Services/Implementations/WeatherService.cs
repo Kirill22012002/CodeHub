@@ -1,4 +1,5 @@
 ﻿using CodeHub.Services.Interfaces;
+using CodeHub.ViewModels;
 using System.Net;
 
 namespace CodeHub.Services.Implementations
@@ -10,9 +11,11 @@ namespace CodeHub.Services.Implementations
         {
             _config = config;
         }
-        public void GetWeather(decimal latitude, decimal longitude)
+        public WeatherDataViewModel GetWeather(decimal latitude, decimal longitude)
         {
-            WebRequest webRequest = WebRequest.Create($"https://api.tomorrow.io/v4/timelines?location={latitude},{longitude}&fields=temperature&timesteps=1h&units=metric&apikey={_config["TomorrowWeather:SecretKey"]}");
+            WebRequest webRequest = 
+                WebRequest.Create($"https://api.tomorrow.io/v4/timelines?location={latitude},{longitude}&fields=temperature&timesteps=1h&units=metric&apikey={_config["TomorrowWeather:SecretKey"]}");
+            
             webRequest.Method = "GET";
 
             WebResponse webResponse = webRequest.GetResponse();
@@ -26,6 +29,11 @@ namespace CodeHub.Services.Implementations
                 }
             }
             webResponse.Close();
+
+            var temperatureDataViewModel =
+                 ParseJson.GetWeatherDataViewModels(answer);
+
+            return temperatureDataViewModel;
         }
     }
 }

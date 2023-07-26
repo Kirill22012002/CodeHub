@@ -25,8 +25,6 @@ namespace CodeHub.Controllers
                 Body = body
             };
 
-            // Comment
-
             await _emailService.SendEmailAsync(sendEmailDto);
 
             return StatusCode(200);

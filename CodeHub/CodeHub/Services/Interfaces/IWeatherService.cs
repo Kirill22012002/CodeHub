@@ -1,8 +1,10 @@
-﻿namespace CodeHub.Services.Interfaces
+﻿using CodeHub.ViewModels;
+
+namespace CodeHub.Services.Interfaces
 {
     public interface IWeatherService
     {
-        public void GetWeather(decimal latitude, decimal longitude);
+        public WeatherDataViewModel GetWeather(decimal latitude, decimal longitude);
 
     }
 }

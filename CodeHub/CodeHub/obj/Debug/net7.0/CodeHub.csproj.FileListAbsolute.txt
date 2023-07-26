@@ -64,3 +64,4 @@ C:\Users\Kirill\Source\Repos\Kirill22012002\CodeHub\CodeHub\CodeHub\obj\Debug\ne
 C:\Users\Kirill\Source\Repos\Kirill22012002\CodeHub\CodeHub\CodeHub\obj\Debug\net7.0\CodeHub.pdb
 C:\Users\Kirill\Source\Repos\Kirill22012002\CodeHub\CodeHub\CodeHub\obj\Debug\net7.0\CodeHub.genruntimeconfig.cache
 C:\Users\Kirill\Source\Repos\Kirill22012002\CodeHub\CodeHub\CodeHub\obj\Debug\net7.0\ref\CodeHub.dll
+C:\Users\Kirill\Source\Repos\Kirill22012002\CodeHub\CodeHub\CodeHub\bin\Debug\net7.0\Newtonsoft.Json.dll
